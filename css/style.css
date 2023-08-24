@@ -267,7 +267,6 @@ section.home {
   display: flex;
   justify-content: flex-start;
   background-position: center;
-  background-attachment: fixed;
 }
 
 section.home span {
