@@ -247,6 +247,11 @@ header .container nav ul li a.active::after {
   transition: 0.2s;
 }
 
+div.logo a {
+  text-decoration: none;
+  color: white;
+}
+
 div.logo {
   font-weight: bolder;
   color: white;
@@ -270,7 +275,7 @@ section.home {
 }
 
 section.home span {
-  color: #ff5722;
+  color: #ffc107;
 }
 
 section.home p {
@@ -288,8 +293,14 @@ section.home button {
   background-color: transparent;
   cursor: pointer;
   background-position: center;
-  width: 190px;
   font-weight: bold;
+}
+
+section.home button a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 190px;
 }
 
 /* End Landing page */
@@ -436,4 +447,34 @@ img+span {
 del {
   color: #bf4747;
   margin: 7px;
+}
+
+/* */
+footer {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(45deg, #0e39cc, #c7056d);
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  min-height: 123px;
+}
+
+footer .so span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-weight: bold;
+  margin: 15px;
+}
+
+footer .so span a i {
+  font-size: 25px;
+  color: #09eb60;
+}
+
+i.fa-brands.fa-square-facebook {
+  color: #03A9F4;
 }
