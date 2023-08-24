@@ -67,7 +67,7 @@ body {
   }
 
   section.home {
-    background-image: url(img/hero5-phone.jpg);
+    background-image: url("../img/hero5-phone.jpg");
   }
 
   h1 {
@@ -120,7 +120,7 @@ body {
   }
 
   section.home {
-    background-image: url(img/hero5-decktop.jpg);
+    background-image: url("../img/hero5-decktop.jpg");
   }
 
 
@@ -160,7 +160,7 @@ body {
   }
 
   section.home {
-    background-image: url(img/hero5-decktop.jpg);
+    background-image: url("../img/hero5-decktop.jpg");
   }
 
   header .container nav ul {
@@ -282,7 +282,7 @@ section.home p {
 section.home button {
   border: none;
   padding: 10px;
-  background-image: url(img/button.png);
+  background-image: url("../img/button.png");
   color: rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-color: transparent;
